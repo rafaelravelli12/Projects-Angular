@@ -7,7 +7,7 @@ O repositório em questão aloca o Projeto requisitado no processo seletivo da E
 ------------
 Este software foi desenvolvido no ambiente Windows 11: https://www.microsoft.com/en-us/windows/windows-11?r=1
 
-Este software usa a versão Node 19, instalado a partir do NVM: https://github.com/coreybutler/nvm-windows
+Este software usa a versão Node 18, instalado a partir do NVM: https://github.com/coreybutler/nvm-windows
 
 Este software foi gerado com [Angular CLI] (https://github.com/angular/angular-cli) versão 15.2.6
 
