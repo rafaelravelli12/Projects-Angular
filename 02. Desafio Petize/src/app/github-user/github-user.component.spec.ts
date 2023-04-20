@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PerfilComponent } from './perfil.component';
+import { GithubUserComponent } from './github-user.component';
 
-describe('PerfilComponent', () => {
-  let component: PerfilComponent;
-  let fixture: ComponentFixture<PerfilComponent>;
+describe('GithubUserComponent', () => {
+  let component: GithubUserComponent;
+  let fixture: ComponentFixture<GithubUserComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [PerfilComponent]
+      declarations: [GithubUserComponent]
     })
       .compileComponents();
 
-    fixture = TestBed.createComponent(PerfilComponent);
+    fixture = TestBed.createComponent(GithubUserComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

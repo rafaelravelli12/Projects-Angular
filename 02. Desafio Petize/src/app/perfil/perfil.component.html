@@ -1,1 +1,24 @@
-<p>perfil works!</p>
+<h1>Perfil</h1>
+
+<div *ngIf="user">
+	<div>
+		<img [src]="user.avatar_url" [alt]="user.login">
+		<h2>{{ user.name }}</h2>
+		<h3>{{ user.login }}</h3>
+		<p>{{ user.bio }}</p>
+		<p>{{ user.location }}</p>
+		<p>{{ user.email }}</p>
+		<p>{{ user.blog }}</p>
+		<p>{{ user.twitter_username }}</p>
+		<p>{{ user.company }}</p>
+	</div>
+
+	<div>
+		<h4>Followers: {{ user.followers }}</h4>
+		<h4>Following: {{ user.following }}</h4>
+		<h4>Public Repositories: {{ user.public_repos }}</h4>
+		<h4>Public Gists: {{ user.public_gists }}</h4>
+		<h4>Created at: {{ user.created_at }}</h4>
+		<h4>Last updated: {{ user.updated_at }}</h4>
+	</div>
+</div>
